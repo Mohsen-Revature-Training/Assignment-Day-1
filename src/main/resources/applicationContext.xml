@@ -6,11 +6,11 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="emailService" class="com.revature.training.springassignment.EmailService">
-        <property name="message" value="This is an email"/>
+        <property name="message" value="email"/>
     </bean>
 
     <bean id="smsService" class="com.revature.training.springassignment.SMSService">
-        <property name="message" value="This is an SMS"/>
+        <property name="message" value="sms"/>
     </bean>
 
     
